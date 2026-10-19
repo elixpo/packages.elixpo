@@ -55,7 +55,7 @@ export const PACKAGE_RECORDS: PackageRecord[] = [
     kind: "native" as const,
     category: item.category,
     summary: item.summary,
-    platform: item.support.join(", "),
+    platform: item.support,
     install: item.install,
     secondaryInstall: item.windowsInstall,
     source: item.source,
